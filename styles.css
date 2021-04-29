@@ -1,0 +1,467 @@
+﻿.green {
+    color: #1c593f;
+}
+
+h1 {
+    padding-top: 70px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkgreen;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a:hover {
+    color: #0b2218;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-custom {
+    background-color: #fff2cc;
+}
+
+.btn-custom {
+    background-color: #1c593f;
+}
+
+button:active {
+    color: #0b2218;
+}
+
+body {
+    background-color: #FDFDFB;
+}
+
+.card {
+    margin: 15px;
+}
+
+.center {
+    margin: auto;
+}
+
+
+nav {
+    margin-bottom: 50px;
+}
+
+
+main {
+    margin-top: 60px;
+}
+
+
+@media (max-width:100px) {
+    .display-4
+
+{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.day h5 {
+    background-color: #f8f9fa;
+    padding: 3px 5px 5px;
+    margin: -8px -8px 8px -8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.date {
+    padding-left: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+}
+
+@media (max-width: 100px) {
+    .day {
+        height: 50.2857vw;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+
+.calcustom {
+    color: #fff2cc;
+}
+
+.row-custom {
+    background-color: #fff2cc;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+.darkgreen {
+    color: #0b2218;
+}
+
+container {
+    padding: 50px;
+}
+
+section {
+    padding: 40px;
+}
+
+
+.red {
+    color: #ff2129;
+}
+
+.blue {
+    color: #2066ac;
+}
+
+.lightgreen {
+    color: #1f9478;
+}
+.padding-general {
+    padding: 10px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* code for the add to do list*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    height: 100vh;
+}
+
+.box {
+    width: 40%;
+    margin-top: 90px;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+    .button:hover {
+        background: green;
+    }
+
+.overlay {
+    position: fixed;
+    top: 00;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 255, 0, 0.02);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+    .overlay:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+.popup {
+    float: right;
+    margin-top: 600px;
+    margin-left: 1000px;
+    padding: 20px;
+    background: #fff2cc;
+    border-radius: 5px;
+    width: 40%;
+    position: absolute;
+    display: block;
+    bottom: 100px;
+    right: 100px;
+    border: 5px;
+    border-color: black;
+}
+
+    .popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .popup .close:hover {
+            color: #fff2cc;
+        }
+
+    .popup .content {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.ocean {
+    color: #F1F8F7;
+}
+
+.maincolor {
+    color: #fff2cc;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float {
+    margin-top: 22px;
+}
+
+.popup2 {
+    float: right;
+    margin-top: 600px;
+    padding: 20px;
+    background: #fff2cc;
+    border-radius: 5px;
+    width: 40%;
+    position: absolute;
+    display: block;
+    bottom: 110px;
+    right: 170px;
+    border: 5px;
+    border-color: black;
+}
+
+    .popup2 h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup2 .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .popup2 .close:hover {
+            color: black;
+        }
+
+    .popup2 .content {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup2 {
+        width: 70%;
+    }
+}
+
+.float2 {
+    position: fixed;
+    width: 80px;
+    height: 60px;
+    bottom: 40px;
+    right: 100px;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    margin-right: 15px;
+}
+
+
+
+.card-header {
+    background-color: #fff2cc;
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.ocean {
+    color: #F1F8F7;
+}
+
+.maincolor {
+    color: #fff2cc;
+}
+
+header {
+    background-color: #F1F8F7;
+}
+
+.card {
+    margin: 15px;
+    border-color: #F1F8F7;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+fff2cc
+
+btn {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.tblbtn {
+    border-color: #1c593f;
+    border-width: 5px;
+    background-color: white;
+}
+
+.quick {
+    font-family: 'Quicksand', sans-serif;
+}
+
