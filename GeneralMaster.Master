@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GeneralMaster.master.cs" Inherits="GreenValleyAuctionsSystem.GeneralMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   
+		<meta charset="UTF-8">
+		<meta name="description" content="Description of this web site">
+	  	<meta name="author" content="Christy Marchand">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Log In- Green Valley Auctions</title>
+
+		<!-- Bootstrap v5.0.0-beta1 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link href="css/custom.css" rel="stylesheet" type="text/css">
+          <link href="styles.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+
+    <nav class="nav navbar navbar-expand-lg navbar-custom fixed-top shadow-sm" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="Home.aspx">
+                <img src="GVAImages/header-logo.png"></a>
+        </div>
+    </nav>
+     <form id="form1" runat="server">
+        <div>
+            <%--<asp:Table ID="tblHeader" runat="server" Height="132px" Width="113px">
+                <asp:TableRow>
+                    <asp:TableCell>
+                        <asp:ImageButton ID="imgBtnLogo" runat="server"  ImageUrl="/GVAImages/GVALogo_Gold.jpg" OnClick="imgBtnLogo_Click" Width="276px" Height="153px"/>
+                    </asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>--%>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+  </form>
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
